@@ -2,6 +2,7 @@ package com.patrones.playwright.builder;
 
 public class UserData {
     private final String username;
+    private final String lastname;
     private final String password;
     private final String email;
     private final boolean isAdmin;
@@ -9,6 +10,7 @@ public class UserData {
     // Constructor privado, solo accesible desde el Builder
     private UserData(UserBuilder builder) {
         this.username = builder.username;
+        this.lastname = builder.lastname;
         this.password = builder.password;
         this.email = builder.email;
         this.isAdmin = builder.isTester;
@@ -16,6 +18,7 @@ public class UserData {
 
     // Getters
     public String getUsername() { return username; }
+    public String getLastname() { return lastname; }
     public String getPassword() { return password; }
     public String getEmail() { return email; }
     public boolean isAdmin() { return isAdmin; }
@@ -26,14 +29,15 @@ public class UserData {
     }
 
     // Método estático para obtener la instancia del Builder
-    public static UserBuilder builder(String username, String password) {
-        return new UserBuilder(username, password);
+    public static UserBuilder builder(String username, String lastname, String password) {
+        return new UserBuilder(username, lastname, password);
     }
 
     // Clase interna Estática: El Constructor (Builder)
     public static class UserBuilder {
         // Campos requeridos
         private final String username;
+        private final String lastname;
         private final String password;
 
         // Campos opcionales (con valores por defecto)
@@ -41,8 +45,9 @@ public class UserData {
         private boolean isTester = false;
 
         // Constructor del Builder (solo toma los campos requeridos)
-        public UserBuilder(String username, String password) {
+        public UserBuilder(String username, String lastname, String password) {
             this.username = username;
+            this.lastname = lastname;
             this.password = password;
         }
 

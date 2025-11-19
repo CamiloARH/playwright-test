@@ -13,6 +13,17 @@ public class PlaywrightDriver {
     private Browser browser;
     private Page page;
 
+    private static String browserName = "chromium";
+
+    public static void setBrowserName(String name) {
+        if (instance == null) {
+            browserName = name;
+        } else {
+            throw new IllegalStateException("No se puede cambiar el " +
+                    "navegador después de la inicialización.");
+        }
+    }
+
     // 3. Constructor privado para evitar instanciación externa
     private PlaywrightDriver() {
         // Inicialización aquí si la configuración es fija
@@ -29,14 +40,11 @@ public class PlaywrightDriver {
 
     // 5. Método para inicializar Playwright y el navegador
     private void initDriver() {
-        System.out.println("Inicializando Playwright...");
+        System.out.println("Inicializando Playwright en el navegador: " + browserName);
         playwright = Playwright.create();
 
-        // Obtener el nombre del navegador de una variable de entorno o configuración
-        String browserToLaunch = System.getProperty("browser", "chromium");
-
         // **Uso del Factory Method**
-        browser = BrowserFactory.createBrowser(playwright, browserToLaunch);
+        browser = BrowserFactory.createBrowser(playwright, browserName);
 
         // Crea una nueva página/pestaña
         page = browser.newPage();
