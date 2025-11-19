@@ -26,7 +26,7 @@ public class LoginTest {
         //Si se quiere cambiar el navegador desde línea de comandos,
         //se puede descomentar este bloque.
 
-//        String browserToLaunch = System.getProperty("browser", "firefox");
+        String browserToLaunch = System.getProperty("browser", "firefox");
 //        PlaywrightDriver.setBrowserName(browserToLaunch);
 
         page = PlaywrightDriver.getInstance().getPage();

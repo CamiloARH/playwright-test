@@ -5,7 +5,7 @@ public class UserData {
     private final String lastname;
     private final String password;
     private final String email;
-    private final boolean isAdmin;
+    private final boolean isTester;
 
     // Constructor privado, solo accesible desde el Builder
     private UserData(UserBuilder builder) {
@@ -13,7 +13,7 @@ public class UserData {
         this.lastname = builder.lastname;
         this.password = builder.password;
         this.email = builder.email;
-        this.isAdmin = builder.isTester;
+        this.isTester = builder.isTester;
     }
 
     // Getters
@@ -21,11 +21,11 @@ public class UserData {
     public String getLastname() { return lastname; }
     public String getPassword() { return password; }
     public String getEmail() { return email; }
-    public boolean isAdmin() { return isAdmin; }
+    public boolean isTester() { return isTester; }
 
     @Override
     public String toString() {
-        return "User(Username: " + username + ", Email: " + email + ", Admin: " + isAdmin + ")";
+        return "User(Username: " + username + ", Email: " + email + ", Admin: " + isTester + ")";
     }
 
     // Método estático para obtener la instancia del Builder
