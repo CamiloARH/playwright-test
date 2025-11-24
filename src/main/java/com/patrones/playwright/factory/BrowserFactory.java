@@ -83,19 +83,23 @@ public class BrowserFactory {
 
         BrowserType.LaunchOptions options = new BrowserType.LaunchOptions().setHeadless(headless);
 
-        switch (browserName.toLowerCase()) {
-            case "chromium":
+        return switch (browserName.toLowerCase()) {
+            case "chromium" -> {
                 System.out.println("On Chromium...");
-                return playwright.chromium().launch(options);
-            case "firefox":
+                yield playwright.chromium().launch(options);
+            }
+            case "firefox" -> {
                 System.out.println("On Firefox...");
-                return playwright.firefox().launch(options);
-            case "webkit":
+                yield playwright.firefox().launch(options);
+            }
+            case "webkit" -> {
                 System.out.println("On Safari...");
-                return playwright.webkit().launch(options);
-            default:
+                yield playwright.webkit().launch(options);
+            }
+            default -> {
                 System.out.println("You have provided an invalid browser name! Launching Chromium by default...");
-                return playwright.chromium().launch(options);
-        }
+                yield playwright.chromium().launch(options);
+            }
+        };
     }
 }
