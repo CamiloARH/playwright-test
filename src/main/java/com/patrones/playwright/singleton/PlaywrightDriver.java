@@ -2,6 +2,7 @@ package com.patrones.playwright.singleton;
 
 import com.microsoft.playwright.*;
 import com.patrones.playwright.factory.BrowserFactory;
+import io.github.cdimascio.dotenv.Dotenv;
 
 public class PlaywrightDriver {
 
@@ -13,7 +14,7 @@ public class PlaywrightDriver {
     private Browser browser;
     private Page page;
 
-    private static String browserName = "chromium";
+    private static String browserName;
 
     public static void setBrowserName(String name) {
         if (instance == null) {
@@ -40,13 +41,17 @@ public class PlaywrightDriver {
 
     // 5. Método para inicializar Playwright y el navegador
     private void initDriver() {
-        System.out.println("Inicializando Playwright en el navegador: " + browserName);
-        playwright = Playwright.create();
 
-        // **Uso del Factory Method**
-        browser = BrowserFactory.createBrowser(playwright, browserName);
+        Dotenv dotenv = Dotenv.load();
+        dotenv.entries().forEach(entry ->
+                System.setProperty(entry.getKey(), entry.getValue())
+        );
 
-        // Crea una nueva página/pestaña
+
+        System.out.println("Inicializando Playwright");
+
+        // Uso del Factory Method
+        browser = com.patrones.playwright.factory.BrowserFactory.createBrowser();
         page = browser.newPage();
     }
 

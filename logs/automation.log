@@ -30,3 +30,159 @@
 2025-11-19 17:05:37,451 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
 2025-11-19 17:05:37,881 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
 2025-11-19 17:05:46,649 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctQTndF_dy_H4SEWF1ilvDqC-S0aLKO-inRXutUj19vseKUpm-X4JgPCqTaW&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S-1509627736%3A1763589936132713&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU02Eso_2ulgVkU7DDYfTkncMaj9eblCGub26QeNPJwZvWAoj7P5x7evGdbDs2w61sgP6810ZA&service=youtube
+2025-11-24 10:19:59,239 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 10:19:59,244 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:19:59,277 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:20:04,007 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 10:20:04,292 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 10:20:05,782 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 10:20:06,049 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 10:20:13,896 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctT6Kr1TJIZVRHkVkxMS2ycGtwRdCPqqpf4vHLu7XacH6Qvvak0_KtDjGUDd&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S1963801691%3A1763997601566448&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU2dvJfw16Rxjlz4V_ynx3dc2rP4XoAkI05W53mxItQHHzGs_Z7TDVHknOOAA8YvozLPRbuBZg&service=youtube
+2025-11-24 10:20:55,257 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 10:20:55,260 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:20:55,280 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:21:15,912 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 10:21:15,915 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:21:15,944 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:21:20,921 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 10:21:22,049 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 10:21:51,002 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 10:21:51,004 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:21:51,019 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:21:55,544 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 10:21:55,792 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 10:21:57,273 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 10:21:57,414 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 10:22:00,991 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctRwxKsgL8vfcMY4mFkkk2nmerq_cVCb26wKsOzfVQPkaIHLv7EDojP8SXOd&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S1814355324%3A1763997713230535&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU3RyTZnrQ9FNDSCAUmNoFYEHDzKCaCeJFCwMgBiIxZ6-JCwpbPHvhqI_40nWpJwG0_TTM4obA&service=youtube
+2025-11-24 10:52:39,547 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 10:52:39,551 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:52:39,572 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:52:42,912 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 10:52:43,179 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 10:52:45,029 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 10:52:45,143 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 10:52:57,091 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctQo-baRzlfB5wj00RtvlcFatWNMTWwWwlZPZdM8fMJbVf4ibNgFfPakDLhr&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S-1609322528%3A1763999561059247&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU1LLm2QwnRmnQ-GKdbrKWQrwfFfeRc3L99VVmDTnIP1STzMrj7MOWTb4SnzLugv_JKVff4F&service=youtube
+2025-11-24 10:54:24,603 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 10:54:24,606 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:54:24,631 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:54:28,074 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 10:54:28,387 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 10:54:29,372 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 10:54:29,426 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 10:54:36,821 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctTeMLKPNuHXI3OXLRjjqH9qhrmlItTNHuHV5AJFsOYIDYy05d6sXoPWIvDr&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S589961666%3A1763999666190432&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU0AqseugYv4kKUw98cTiXPvUU4TlJdI658rP7iuttpfvPlip_3K7i9sbzL6ZzNeRuuYR6OY3Q&service=youtube
+2025-11-24 10:57:02,288 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 10:57:02,291 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:57:02,320 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:57:05,642 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 10:57:05,977 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 10:57:07,558 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 10:57:07,615 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 10:57:12,346 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctQMq7HMm-27uGadpjH8a18g4-vJw98f9cjXLvpA7lfIaguS6zNSYDyyTPDN&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S236358506%3A1763999823755149&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU2Nyhdp9aGmyvS9p3IeL9ZEDGZ9m1tAY7KZ7jAVlH2gIHa7Lnd5DecD8Y51t-zg1pMkscTMpw&service=youtube
+2025-11-24 10:59:01,490 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 10:59:01,494 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 10:59:01,509 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:00:53,294 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 11:00:53,300 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:00:53,319 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:00:56,677 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 11:12:26,150 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 11:12:26,153 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:12:26,174 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:12:29,717 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 11:12:30,044 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 11:12:31,489 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 11:12:31,544 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 11:41:39,221 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 11:41:39,223 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:41:39,251 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:41:43,677 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 11:41:44,239 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 11:42:38,353 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 11:42:38,357 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:42:38,396 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:42:42,767 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 11:42:43,192 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 11:42:45,182 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 11:42:45,246 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 11:42:55,297 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctTV_N8o0hIw3Z-03PoOh2x2BHfpaakqLkoJ2FyanfW0cIQYSDK9GgOVNEX_&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S1679696822%3A1764002560904970&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU0iUJAEy8DIEM6mq1dcizcsTtrk8AdKcfgx8lFJrzGpsHnVPu3pYPV4ijyEiIEVpj9WPaXm&service=youtube
+2025-11-24 11:44:31,593 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 11:44:31,596 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:44:31,622 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:44:35,000 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 11:44:35,279 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 11:44:36,357 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 11:44:36,684 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 11:44:41,019 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/name?continue=https://www.youtube.com/signin?action_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S1679696822:1764002673124343&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU1kncPgxfC0nMLuZ2dc3kaP9Kb_aKhtf6rP2S3S95Li_02GkuEGX9n-HhQcPcAoi1_2V2PT&service=youtube&TL=ANzgctTXNqHCjnnGMWG5jb8QLH0V4SMaZU7pQJviUeK1kb4IrcsO6ziBSBQ6va54
+2025-11-24 11:53:59,468 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 11:53:59,471 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:53:59,490 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:54:03,979 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 11:54:04,170 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 11:54:05,714 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 11:54:05,839 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 11:54:46,187 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctTZjKTJaoyiJDmFu1eTSc-qp67SHu_hqN6G-rlZwuICM6hZCVBhVCyl0MpP&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S236358506%3A1764003241694974&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU2MCai-ULbYdwWhC9DF0A28KRq--kyhuXHw1cOVy8BYr5u6vV5MgYFxnPvB4n_g6BGuGm0gQA&service=youtube
+2025-11-24 11:55:12,103 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 11:55:12,109 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:55:12,130 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:55:16,942 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 11:55:17,185 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 11:55:18,306 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 11:57:17,413 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 11:57:17,419 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:57:17,433 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 11:57:22,165 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 11:57:22,354 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 11:57:23,413 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 11:57:23,519 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 11:57:32,740 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctTP71_OMf-GyqcdJLNlay5WaldxY5E7iQncXg4i7a2eft6LwTI2qq3Bdr2b&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S724136527%3A1764003439537321&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU1ODHKIWwj32He8qKPLvSF_we0pJ5fNH5QZ2TLl7Ndm1b9KGuNo0om06RBW95a01S9SbxNBvQ&service=youtube
+2025-11-24 12:04:27,426 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 12:04:27,432 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 12:04:27,451 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 12:04:32,142 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 12:04:32,385 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 12:04:33,636 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 12:04:33,852 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 12:05:20,107 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctTbBnaidyr-B4JBNlkMdxDgcu4fokwoYN1wTj5KumFf9WWa0DkH15kwTXfm&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S1814355324%3A1764003869993284&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU3GtkZYRrkYPTO5pu1O-TeqifpGbbNkBzZFBEvfoq6iofAjiy46GBhh2rjUR0oXb5olBVqmOA&service=youtube
+2025-11-24 12:07:54,797 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 12:07:54,801 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 12:07:54,816 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 12:08:09,591 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 12:08:09,600 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 12:08:09,619 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 12:08:14,476 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 12:08:14,718 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 12:08:15,900 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 12:08:15,998 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 12:08:22,536 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctRNCHPdxSAwrNk1xee_oOWyYraKlM_zG8AbAMEiWLbxnN6QoQqBnKXmI6DH&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S-1222084411%3A1764004092225230&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU1KoeEt2IjvV5M-Jvth0wQxF1Epnb_qqw8799N1rRPBHQoVdyXD4jt_OvgvOgg_0hMxaBtSEQ&service=youtube
+2025-11-24 12:13:25,502 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 12:13:25,508 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 12:13:25,530 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 12:13:30,570 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 12:13:30,801 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 12:13:32,372 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 12:13:32,620 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 12:13:35,433 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctRPlclutMjAGV29K6BEVYupe6iGsIA4bagjP3VnmNssKnYHmFQ-TFSP6JEN&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S1914154879%3A1764004408318044&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU1KT15xlbssU275TkXFmy4bveIpW6LsslAqLYZ44NmpbyrDCHzXZRDINMN6-aardj1UMP6JGA&service=youtube
+2025-11-24 12:16:10,428 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 12:16:10,433 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 12:16:10,448 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 12:16:14,963 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 12:16:16,432 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 12:16:16,554 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 12:16:16,890 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 12:16:38,889 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctSWOTD_SXCtrm2irCZaoGfbDSOI1s_kb8XMrqUks5mb0xZRHSbCahG4WbZR&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S-1609322528%3A1764004573099085&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU3xdC0j4HNuqNm8Rrc0aN1wkzrQfu0v6_p5XWN1WYt0eaDTMhL6hb0P0BuJdiGj4S4pGmlh&service=youtube
+2025-11-24 13:24:59,681 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 13:24:59,684 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 13:24:59,703 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 13:25:03,419 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 13:25:03,655 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 13:25:05,515 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 13:25:05,622 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 13:26:18,498 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctRu6Fyyv5yj-xla0CTHGxXCopNNSV080EVF19JrwNHjGgKZSjk2iMRDBvmU&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S286974933%3A1764008701481176&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU3w7DBmJbcL04d9M8tFr67ggED1_CLubVMNuj52oAfIpVSINsteyYiXagv-Op6gGtVsBVBl0w&service=youtube
+2025-11-24 13:38:50,044 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-24 13:38:50,052 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 13:38:50,068 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.youtube.com/?app=desktop&hl=us
+2025-11-24 13:38:53,506 INFO c.p.p.a.ReporterAdapter [main] Click en 'Sign in'
+2025-11-24 13:38:53,754 INFO c.p.p.a.ReporterAdapter [main] Click en 'Create account'
+2025-11-24 13:38:54,843 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-24 13:38:54,904 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
+2025-11-24 13:39:03,635 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/birthdaygender?TL=ANzgctTpf3kcZ_SSyC0OnpEnOtbeoTpiE5xgt0lWuKFwG0Ic9tAJXwSJDpJC9wjd&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S1963801691%3A1764009531681918&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU0FxJ8bhvmVRONFnFE9ZsxPxEwwFE_HaTE5JvQJXAgJlAqre5HnSNid6EJojH78w29MS-qjrg&service=youtube

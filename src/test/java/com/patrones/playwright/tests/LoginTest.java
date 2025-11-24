@@ -2,7 +2,7 @@ package com.patrones.playwright.tests;
 
 import com.microsoft.playwright.Page;
 import com.patrones.playwright.abstractfactory.*;
-import com.patrones.playwright.adapter.*; // Importamos las clases del Adapter
+import com.patrones.playwright.adapter.*;
 
 import com.patrones.playwright.builder.UserData;
 import com.patrones.playwright.singleton.PlaywrightDriver;
@@ -17,17 +17,10 @@ public class LoginTest {
     private static UserData testUser;
     private static String baseUrl;
 
-    // **NUEVO:** Instancia del Logger (usamos la interfaz)
     private static CustomLogger logger = new ReporterAdapter();
 
     @BeforeAll
     public static void setup() {
-
-        //Si se quiere cambiar el navegador desde línea de comandos,
-        //se puede descomentar este bloque.
-
-        String browserToLaunch = System.getProperty("browser", "firefox");
-//        PlaywrightDriver.setBrowserName(browserToLaunch);
 
         page = PlaywrightDriver.getInstance().getPage();
 
@@ -42,27 +35,22 @@ public class LoginTest {
         baseUrl = factory.createURLProvider().getBaseUrl();
         testUser = factory.createCredentialsProvider().getDefaultUser();
 
-        // Uso del Adapter para reportar la configuración
         logger.logMessage("INFO", "Configurando el ambiente: " + environment);
         logger.logMessage("INFO", "URL Base obtenida: " + baseUrl);
     }
 
     @Test
     public void testSuccessfulLogin() {
-        // Reemplaza los System.out.println() por llamadas al logger.
         logger.logMessage("INFO", "Ejecutando Test de Login en: " + baseUrl);
 
-        // Paso 1: Navegación
         page.navigate(baseUrl);
 
-        // Paso 2: Simular acciones de inicio de sesión
         page.click("text=Sign in");
         logger.logMessage("INFO", "Click en 'Sign in'");
 
         page.click("text=Create account");
         logger.logMessage("INFO", "Click en 'Create account'");
 
-        // Uso del Builder y Playwright
         page.getByLabel("First name").fill(testUser.getUsername());
         logger.logMessage("INFO", "Llenando campo 'First name' con usuario: " + testUser.getUsername());
 
@@ -72,7 +60,6 @@ public class LoginTest {
 
         page.pause();
 
-        // Paso 3: Verificación (se puede mejorar con aserciones reales)
         String currentUrl = page.url();
         logger.logMessage("INFO", "URL actual al finalizar: " + currentUrl);
 
