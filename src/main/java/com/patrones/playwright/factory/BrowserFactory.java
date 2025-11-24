@@ -4,61 +4,84 @@ import com.google.gson.Gson;
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Playwright;
+
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
 
 public class BrowserFactory {
 
-    // Método principal para crear el objeto Browser
     public static Browser createBrowser(Playwright playwright) {
+        // Lee el modo de ejecución (LOCAL por defecto)
         String executionMode = System.getProperty("EXECUTION_MODE");
 
         if ("BROWSERSTACK".equalsIgnoreCase(executionMode)) {
             return createBrowserStackBrowser(playwright);
         } else {
-            // Lógica para LOCAL
-            String browserName = System.getProperty("browser");
-            if (browserName == null) {
-                browserName = System.getProperty("BROWSER_NAME", "chromium"); // Valor por defecto
-            }
+
+            String browserName = System.getProperty("BROWSER_NAME");
             return createLocalBrowser(playwright, browserName);
         }
     }
 
     private static Browser createBrowserStackBrowser(Playwright playwright) {
-        // Obtener credenciales del .env
+
         String username = System.getProperty("BROWSERSTACK_USERNAME");
         String accessKey = System.getProperty("BROWSERSTACK_ACCESS_KEY");
-        String deviceName = System.getProperty("DEVICE_NAME");
 
-        // Construir el WebSocket Endpoint
-        String browserstackWSEndpoint = String.format(
-                "wss://%s:%s@hub-cloud.browserstack.com/playwright/v1/ws",
-                username,
-                accessKey
-        );
+        String remoteUrl = "wss://cdp.browserstack.com/playwright?caps=";
 
-        // 2. Definir las capacidades (BrowserStack Options)
-        Map<String, Object> browserstackOptions = new HashMap<>();
-        browserstackOptions.put("deviceName", deviceName != null ? deviceName : "Google Pixel 8");
-        browserstackOptions.put("osVersion", "14.0");
-        browserstackOptions.put("browser", "chrome");
-        browserstackOptions.put("buildName", "Playwright Java Mobile Test");
+        if (username == null || accessKey == null) {
+            throw new RuntimeException("BrowserStack credentials not provided.");
+        }
+        Map<String, Object> caps = new HashMap<>();
 
-        // 3. Crear las opciones de conexión remota
-        BrowserType.ConnectOptions connectOptions = new BrowserType.ConnectOptions();
-        connectOptions.setHeaders(Map.of("browserStackOptions", new Gson().toJson(browserstackOptions)));
+        //BrowserStack
+        caps.put("browser", System.getProperty("BS_BROWSER", "chrome"));
+        caps.put("browser_version", System.getProperty("BS_BROWSER_VERSION", "latest"));
+        caps.put("project", System.getProperty("BS_PROJECT", "Patrones Playwright"));
+        caps.put("build", System.getProperty("BS_BUILD", "Build Local"));
+        caps.put("name", System.getProperty("BS_NAME", "Test Playwright"));
 
-        // 4. Conectar a BrowserStack
+        String deviceId = System.getProperty("BS_DEVICE_ID", "1"); // 0 = Desktop by default
+
+        switch (deviceId) {
+            case "1":
+                caps.put("device", "iPhone 14");
+                caps.put("real_mobile", "true");
+                caps.put("os_version", "16");
+                break;
+            case "2":
+                caps.put("device", "Samsung Galaxy S23");
+                caps.put("real_mobile", "true");
+                caps.put("os_version", "13.0");
+                break;
+            default:
+                System.out.println("Running on Desktop BrowserStack Browser...");
+                break;
+        }
+
+        String capsJson = new Gson().toJson(caps);
+        String connectUrl = remoteUrl + URLEncoder.encode(capsJson, StandardCharsets.UTF_8);
+
+        System.out.println("Connecting to BrowserStack with caps:\n" + capsJson);
+
         return playwright.chromium().connect(
-                browserstackWSEndpoint,
-                connectOptions
+                connectUrl,
+                new BrowserType.ConnectOptions()
+                        .setHeaders(Map.of(
+                                "Authorization", "Basic " + Base64.getEncoder()
+                                        .encodeToString((username + ":" + accessKey).getBytes())
+                        ))
         );
     }
 
     private static Browser createLocalBrowser(Playwright playwright, String browserName) {
+        boolean headless = Boolean.parseBoolean(System.getProperty("HEADLESS", "false"));
 
-        BrowserType.LaunchOptions options = new BrowserType.LaunchOptions().setHeadless(false);
+        BrowserType.LaunchOptions options = new BrowserType.LaunchOptions().setHeadless(headless);
 
         switch (browserName.toLowerCase()) {
             case "chromium":
