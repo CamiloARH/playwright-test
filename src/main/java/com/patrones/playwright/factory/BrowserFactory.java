@@ -10,14 +10,17 @@ import java.util.Map;
 public class BrowserFactory {
 
     // Método principal para crear el objeto Browser
-    public static Browser createBrowser() {
+    public static Browser createBrowser(Playwright playwright) {
         String executionMode = System.getProperty("EXECUTION_MODE");
-        Playwright playwright = Playwright.create();
 
         if ("BROWSERSTACK".equalsIgnoreCase(executionMode)) {
             return createBrowserStackBrowser(playwright);
         } else {
-            String browserName = System.getProperty("BROWSER_NAME");
+            // Lógica para LOCAL
+            String browserName = System.getProperty("browser");
+            if (browserName == null) {
+                browserName = System.getProperty("BROWSER_NAME", "chromium"); // Valor por defecto
+            }
             return createLocalBrowser(playwright, browserName);
         }
     }

@@ -1,29 +1,18 @@
 package com.patrones.playwright.singleton;
 
-import com.microsoft.playwright.*;
-import com.patrones.playwright.factory.BrowserFactory;
+import com.microsoft.playwright.Browser;
+import com.microsoft.playwright.Playwright;
+import com.microsoft.playwright.Page;
 import io.github.cdimascio.dotenv.Dotenv;
+
+import java.util.Map;
 
 public class PlaywrightDriver {
 
-    // 1. Instancia estática y privada de la clase Singleton
     private static PlaywrightDriver instance;
-
-    // 2. Variables para las instancias de Playwright
     private Playwright playwright;
     private Browser browser;
     private Page page;
-
-    private static String browserName;
-
-    public static void setBrowserName(String name) {
-        if (instance == null) {
-            browserName = name;
-        } else {
-            throw new IllegalStateException("No se puede cambiar el " +
-                    "navegador después de la inicialización.");
-        }
-    }
 
     // 3. Constructor privado para evitar instanciación externa
     private PlaywrightDriver() {
@@ -41,17 +30,13 @@ public class PlaywrightDriver {
 
     // 5. Método para inicializar Playwright y el navegador
     private void initDriver() {
-
         Dotenv dotenv = Dotenv.load();
-        dotenv.entries().forEach(entry ->
-                System.setProperty(entry.getKey(), entry.getValue())
-        );
-
+        dotenv.entries().forEach(entry -> System.setProperty(entry.getKey(), entry.getValue()));
+        this.playwright = Playwright.create();
 
         System.out.println("Inicializando Playwright");
-
         // Uso del Factory Method
-        browser = com.patrones.playwright.factory.BrowserFactory.createBrowser();
+        browser = com.patrones.playwright.factory.BrowserFactory.createBrowser(playwright);
         page = browser.newPage();
     }
 
