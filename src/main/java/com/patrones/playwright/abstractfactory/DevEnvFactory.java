@@ -6,12 +6,12 @@ public class DevEnvFactory implements EnvironmentFactory {
 
     @Override
     public URLProvider createURLProvider() {
-        return () -> "https://staging.miaplicacion.com"; // URL ficticia de Staging
+        return () -> "https://www.exito.com/";
     }
 
     @Override
     public CredentialsProvider createCredentialsProvider() {
-        // Devuelve un usuario preconfigurado para Staging
+
         return () -> UserData.builder("Carlos", "ImNot", "CarlosPass")
                 .withEmail("carlos@yopmail.com")
                 .asTester()

@@ -1,6 +1,8 @@
 package com.patrones.playwright.tests;
 
+import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.options.AriaRole;
 import com.patrones.playwright.abstractfactory.*;
 import com.patrones.playwright.adapter.*;
 
@@ -9,6 +11,10 @@ import com.patrones.playwright.singleton.PlaywrightDriver;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+
+import java.util.regex.Pattern;
+
+import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
 
 public class LoginTest {
 
@@ -38,34 +44,37 @@ public class LoginTest {
         logger.logMessage("INFO", "Configurando el ambiente: " + environment);
         logger.logMessage("INFO", "URL Base obtenida: " + baseUrl);
     }
+    public static void realizarLogin(Page page, String baseUrl, UserData testUser) {
+        page.navigate(baseUrl);
+
+        page.click("#icon-cuenta");
+        logger.logMessage("INFO", "Mi cuenta");
+        page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Ingresar con email y contrase")).click();
+
+        page.getByPlaceholder("Ingresa tu email").fill(testUser.getEmail());
+        logger.logMessage("INFO", "Llenando campo 'First name' con usuario: " + testUser.getEmail());
+        page.getByRole(AriaRole.TEXTBOX, new Page.GetByRoleOptions().setName("show-password")).fill(testUser.getPassword());
+
+        page.getByRole(AriaRole.BUTTON, new Page.GetByRoleOptions().setName("Entrar")).click();
+        logger.logMessage("INFO", "Click en 'Entrar' para Realizar el login.");
+    }
 
     @Test
     public void testSuccessfulLogin() {
         logger.logMessage("INFO", "Ejecutando Test de Login en: " + baseUrl);
 
-        page.navigate(baseUrl);
+        realizarLogin(page, baseUrl, testUser);
 
-        page.click("text=Sign in");
-        logger.logMessage("INFO", "Click en 'Sign in'");
+        page.waitForLoadState();
+//        page.getByText("Mi cuenta").waitFor();
+        page.click("#icon-cuenta");
 
-        page.click("text=Create account");
-        logger.logMessage("INFO", "Click en 'Create account'");
+        assertThat(page.getByText("tester@yopmail.com")).containsText(testUser.getEmail());
 
-        page.getByLabel("First name").fill(testUser.getUsername());
-        logger.logMessage("INFO", "Llenando campo 'First name' con usuario: " + testUser.getUsername());
-
-        page.getByLabel("Last name (optional)").fill(testUser.getLastname());
-        page.click("text=Next");
-        logger.logMessage("INFO", "Click en 'Next' para continuar registro.");
+        page.getByTestId("store-modal").getByRole(AriaRole.BUTTON).filter(new Locator.FilterOptions().setHasText(Pattern.compile("^$"))).click();
 
         page.pause();
 
-        String currentUrl = page.url();
-        logger.logMessage("INFO", "URL actual al finalizar: " + currentUrl);
-
-        if (!currentUrl.contains("youtube")) {
-            logger.logMessage("ERROR", "La navegación no fue exitosa o la URL no es la esperada.");
-        }
     }
 
     // Teardown: Cerrar la única instancia de Playwright al finalizar

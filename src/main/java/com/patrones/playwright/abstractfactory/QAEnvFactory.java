@@ -6,14 +6,14 @@ public class QAEnvFactory implements EnvironmentFactory {
 
     @Override
     public URLProvider createURLProvider() {
-        return () -> "https://www.youtube.com/?app=desktop&hl=us"; // URL de Producción (la que usas)
+        return () -> "https://www.exito.com/";
     }
 
     @Override
     public CredentialsProvider createCredentialsProvider() {
-        // Devuelve un usuario para el ambiente de Producción (puedes ajustar el rol)
-        return () -> UserData.builder("Camilo A", "Rodr","Testpass123")
+
+        return () -> UserData.builder("Camilo A", "Rodr","Testpass123Exito")
                 .withEmail("tester@yopmail.com")
-                .build(); // Por defecto, rol Standard
+                .build();
     }
 }

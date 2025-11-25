@@ -358,3 +358,218 @@
 2025-11-24 17:52:05,551 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
 2025-11-24 17:52:05,604 INFO c.p.p.a.ReporterAdapter [main] Click en 'Next' para continuar registro.
 2025-11-24 17:52:09,194 INFO c.p.p.a.ReporterAdapter [main] URL actual al finalizar: https://accounts.google.com/lifecycle/steps/signup/name?continue=https://www.youtube.com/signin?action_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%253Fapp%253Ddesktop%2526hl%253Dus&dsh=S-1222084411:1764024722488803&ec=65620&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&ifkv=ARESoU3Ef9q9Aqpnf51GbsFcHjSTwOJnmMyMtDiJ6kmQ4lgBhzE5MnBEyNvFKaRk0SJtDRIh6q59JA&service=youtube&TL=ANzgctTiGl6D3hhOr1-vWvWsXCq8h3ppRFYLBT0KDnqctZ69hZrTsYYrA0vn78cH
+2025-11-25 15:32:46,300 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:32:46,305 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:32:46,322 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:33:43,205 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:33:43,210 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:33:43,231 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:34:19,148 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:34:19,154 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:34:19,172 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:35:10,276 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:35:10,281 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:35:10,302 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:35:31,931 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:35:31,936 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:35:31,958 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:36:34,174 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:36:34,177 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:36:34,194 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:37:34,404 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:37:34,408 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:37:34,428 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:37:38,234 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 15:38:01,919 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:38:01,924 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:38:01,946 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:38:05,996 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 15:41:35,457 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:41:35,460 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:41:35,482 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:41:41,477 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 15:44:43,307 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:44:43,310 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:44:43,325 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:44:47,715 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 15:44:50,824 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: Camilo A
+2025-11-25 15:46:47,202 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:46:47,205 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:46:47,229 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:46:52,842 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 15:46:56,323 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 15:48:22,157 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:48:22,161 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:48:22,180 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:48:26,456 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 15:48:29,117 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 15:50:15,853 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:50:15,857 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:50:15,872 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:50:19,771 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 15:50:22,438 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 15:53:20,828 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 15:53:20,831 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 15:53:20,852 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 15:53:26,226 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 15:53:28,276 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 15:53:28,411 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 16:05:36,560 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 16:05:36,566 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 16:05:36,593 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 16:05:40,946 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 16:05:43,353 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 16:05:43,528 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 16:07:07,053 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 16:07:07,059 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 16:07:07,080 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 16:07:12,530 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 16:07:15,761 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 16:07:16,054 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 16:15:47,896 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 16:15:47,902 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 16:15:47,922 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 16:15:53,950 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 16:15:57,003 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 16:15:57,190 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 16:17:21,396 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 16:17:21,403 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 16:17:21,427 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 16:17:26,042 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 16:17:29,160 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 16:17:29,454 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 16:18:23,291 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 16:18:23,295 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 16:18:23,328 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 16:18:29,853 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 16:18:33,474 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 16:18:33,784 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 16:21:42,525 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 16:21:42,531 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 16:21:42,556 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 16:21:48,034 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 16:21:51,584 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 16:21:51,903 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 16:49:46,424 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 16:49:46,430 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 16:57:53,250 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 16:57:53,254 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 16:57:53,276 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 16:57:58,510 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 16:58:01,095 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 16:58:01,255 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 16:59:16,421 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 16:59:16,425 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 16:59:16,460 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 16:59:20,974 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 16:59:24,089 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 16:59:24,324 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:00:05,466 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:00:05,469 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:00:05,487 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:00:11,394 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:00:13,999 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:00:14,202 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:03:41,528 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:03:41,532 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:03:41,548 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:03:45,916 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:03:48,685 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:03:48,899 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:04:28,380 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:04:28,385 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:04:28,402 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:04:32,787 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:04:34,954 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:04:35,134 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:05:27,253 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:05:27,258 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:05:27,281 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:05:31,562 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:05:34,159 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:05:34,328 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:06:07,079 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:06:07,083 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:06:07,102 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:06:12,085 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:06:14,810 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:06:15,070 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:07:01,837 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:07:01,841 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:07:01,858 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:07:06,215 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:07:08,989 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:07:09,206 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:07:37,351 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:07:37,356 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:07:37,390 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:07:41,899 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:07:45,117 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:07:45,349 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:19:16,637 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:19:16,647 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/User(Username: Camilo A, Email: tester@yopmail.com, Admin: false)
+2025-11-25 17:21:52,920 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:21:52,926 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/User(Username: Camilo A, Email: tester@yopmail.com, Admin: false)
+2025-11-25 17:22:10,600 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:22:10,607 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/User(Username: Camilo A, Email: tester@yopmail.com, Admin: false)
+2025-11-25 17:24:27,754 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:24:27,761 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/User(Username: Camilo A, Email: tester@yopmail.com, Admin: false)
+2025-11-25 17:25:14,220 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:25:14,226 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/User(Username: Camilo A, Email: tester@yopmail.com, Admin: false)
+2025-11-25 17:29:43,393 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:29:43,402 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/User(Username: Camilo A, Email: tester@yopmail.com, Admin: false)
+2025-11-25 17:30:37,777 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:30:37,785 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/User(Username: Camilo A, Email: tester@yopmail.com, Admin: false)
+2025-11-25 17:31:52,414 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:31:52,422 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/User(Username: Camilo A, Email: tester@yopmail.com, Admin: false)
+2025-11-25 17:33:38,416 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:33:38,420 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:34:44,744 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:34:44,749 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:34:44,769 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:34:49,888 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:34:52,483 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:34:52,701 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:38:03,816 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:38:03,822 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:38:09,587 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:39:41,267 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:39:41,274 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:39:45,631 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:39:48,337 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:39:48,581 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:40:06,286 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:40:06,289 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:40:10,526 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:40:13,168 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:40:13,391 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:45:58,992 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:45:58,997 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:45:59,013 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:46:03,501 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:46:06,244 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:46:06,473 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:53:15,103 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:53:15,110 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:53:15,134 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:53:19,412 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:53:22,097 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:53:22,289 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:56:27,155 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:56:27,170 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:56:27,198 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:56:31,577 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:56:34,349 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:56:34,573 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:58:14,263 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:58:14,266 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:58:14,286 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:58:19,283 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:58:21,993 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:58:22,211 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
+2025-11-25 17:58:50,418 INFO c.p.p.a.ReporterAdapter [main] Configurando el ambiente: Qa
+2025-11-25 17:58:50,424 INFO c.p.p.a.ReporterAdapter [main] URL Base obtenida: https://www.exito.com/
+2025-11-25 17:58:50,447 INFO c.p.p.a.ReporterAdapter [main] Ejecutando Test de Login en: https://www.exito.com/
+2025-11-25 17:58:54,969 INFO c.p.p.a.ReporterAdapter [main] Mi cuenta
+2025-11-25 17:58:57,981 INFO c.p.p.a.ReporterAdapter [main] Llenando campo 'First name' con usuario: tester@yopmail.com
+2025-11-25 17:58:58,225 INFO c.p.p.a.ReporterAdapter [main] Click en 'Entrar' para Realizar el login.
